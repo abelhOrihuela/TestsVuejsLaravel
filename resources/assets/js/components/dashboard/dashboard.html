@@ -1,0 +1,14 @@
+<div class="">
+<div class="">
+  <button type="button" name="button" @click="saludar()">saludar</button>
+</div>
+
+
+<div v-for="post in posts">
+Title <strong>{{ post.title }}</strong>
+<pre>
+  {{ post.description }}
+</pre>
+<hr>
+</div>
+</div>
